@@ -1,0 +1,119 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+   --color1:#F2E527;
+   --color2:#403501;
+   --color3:#0D0D0D;
+   --color4:#F2D027;
+   background-image: url(imagenes/sw_fondo.jpg);  
+}
+#contenedor{
+    width: 90%;
+    /*border:4px solid red;*/
+    margin:25px auto;
+}
+#logo{
+    height: 150px;
+}
+#search{
+    height: 50px;
+}
+#cabecera{
+    border: 2px solid var(--color2);
+    /*border-width: 5px;*/
+    /*border-top-width: 5px;
+    border-bottom-width:10px ;
+    border-right-width: 15px;
+    border-left-width: 20px;*/
+
+    border-style: solid;
+
+    /*border-top-style: double;
+    border-botttom-style:solid;
+    border-right-style: dashed;
+    border-left-style: dotted;*/
+
+
+
+    border-color: #F2D027;
+
+    /*border-top-color: yellow;
+    border-bottom-color:white;
+    border-left-color: red;
+    border-right-color: green ;*/
+    /*border-radius: 10px 20px 30px 40px;*/
+
+    /*border-top-left-radius: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius:40px;*/
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:10px;
+    padding:10px;
+}
+#titulo{
+    text-align: center;
+    margin:10px;
+    padding:10px;
+    color:white;
+    text-shadow: 5px 6px 10px yellow;
+}
+
+#contenidos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:10px;
+    padding:10px;
+   border:2px solid whitesmoke;
+   color:white;
+
+}
+.episodio{
+    /* border:3px solid green; */
+    width:30%;
+    padding:10px
+}
+.episodio img{
+    width: 90%;
+    display:block;
+    margin:auto;    
+    box-shadow: 5px 6px 8px yellow;
+}
+.episodio h2{
+    text-align: center;
+    margin:10px;
+    color: var(--color4)
+}
+.episodio p{
+    text-align: justify;
+}
+#pie{
+    text-align: center;
+    border:3px solid var(--color2);
+    margin:10px;
+    padding:10px
+}
+#pie h3, #pie p{
+    padding:10px;
+    color:white
+}
+#pie img{
+    height: 50px;
+    margin:10px
+}
+#cuadrado{
+    width:100px;
+    height:100px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+i{
+    font-size: 20px;
+}
